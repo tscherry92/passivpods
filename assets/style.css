@@ -38,13 +38,13 @@ body {
 }
 
 #hero h1 {
-    font-size: 5em;
+    font-size: 3em; */ was 5 */
     margin: 0;
     padding: 50px 0;
 }
 
 #hero p {
-    font-size: 1.8em;
+    font-size: 1em; */ was 1.8 */
     margin: 0;
     padding-bottom: 20px;
 }
@@ -62,7 +62,7 @@ nav {
 
 nav a {
     color: #fff;
-    font-size: 1.5em;
+    font-size: .8em; */ was 1.5 */
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -85,7 +85,7 @@ nav a:hover {
     background-color: #333;
     color: white;
     padding: 10px 10px;
-    font-size: 1em;
+    font-size: .8em; */ was 1 */
     opacity: 0;
     transform: translateY(-100%);
     transition: transform 0.4s ease, opacity 0.4s ease;
@@ -93,7 +93,7 @@ nav a:hover {
 
 .brand-name {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em; */ was 2 */
     color: white;
     margin-right: auto;
     padding: 0px 0px 0px 40px;
@@ -101,7 +101,7 @@ nav a:hover {
 
 .dropdown-nav {
     position: absolute;
-    font-size: 1em;
+    font-size: .8em; */ was 1 */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -152,14 +152,14 @@ a:hover {
 }
 
 .section h2 {
-    font-size: 2.5em;
+    font-size: 2em; */ was 2 */
     margin-top: 0;
     margin-bottom: 15px;
     color: #333;
 }
 
 .section p, .section ol, .section ul {
-    font-size: 1.5em;
+    font-size: 1em; */ was 1.5 */
     line-height: 1.8;
     color: #555;
     margin: 10px 0;
@@ -181,13 +181,13 @@ a:hover {
 }
 
 .pod-header h3 {
-    font-size: 2em;
+    font-size: 1.5em; */ was 2 */
     color: #333;
     margin: 0;
 }
 
 .pod-blurb {
-    font-size: 1.2em;
+    font-size: 1em; */ was 1.2 */
     color: #555;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -336,7 +336,7 @@ a:hover {
 
 #team .review h4 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1em; */ was 1.2 */
     color: #333;
 }
 
@@ -347,7 +347,7 @@ a:hover {
 
 #team h3 {
     margin-top: 40px;
-    font-size: 1.5em;
+    font-size: 1em; */ was 1.5 */
     color: #333;
 }
 
@@ -370,7 +370,7 @@ a:hover {
 
 #contact p, #contact ol, #contact ul {
     max-width: 1200px;
-    font-size: 1.5em;
+    font-size: 1em; */ was 1.5 */
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -400,7 +400,7 @@ a:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
-    font-size: 1.5em;
+    font-size: 1em; */ was 1.5 */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -427,7 +427,7 @@ footer p {
     color: white;
     margin: 0 10px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em; */ was 1.2 */
     transition: color 0.3s ease;
 }
 
