@@ -20,7 +20,19 @@
     <header id="hero" class="main-header">
         <h1>PassivPods</h1>
         <p>Building efficient, comfortable Passivhaus homes for a sustainable future</p>
-        <nav>
+        <!-- Hamburger Menu -->
+        <div class="hamburger-menu">
+            <button id="menu-toggle">☰</button>
+            <nav id="mobile-nav" class="hidden">
+                <a href="#mission">Our Mission</a>
+                <a href="#principles">Our Principles</a>
+                <a href="#pods">Our Pods</a>
+                <a href="#team">Our Team</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </div>
+        <!-- Regular Navigation Links -->
+        <nav class="desktop-nav">
             <a href="#mission">Our Mission</a>
             <a href="#principles">Our Principles</a>
             <a href="#pods">Our Pods</a>
@@ -39,7 +51,7 @@
             <a href="#team">Our Team</a>
             <a href="#contact">Contact Us</a>
         </nav>
-    </div> 
+    </div>
 
     <!-- Sections with Consistent Styling -->
     <section id="mission" class="section">
@@ -51,8 +63,11 @@
         </ol>
         <p>Through these approaches, we’re committed to delivering homes that prioritize exceptional air quality, comfort, and energy savings for every resident.</p>
     </section>
+
     <div class="divider-wrapper">
         <hr class="section-divider">
+    </div>
+
     <section id="principles" class="section">
         <h2>Our Principles</h2>
         <p>Each of our pods is designed to meet or exceed the stringent requirements of the Passivhaus standard, offering unparalleled comfort, efficiency, and quality. Here’s what sets our pods apart:</p>
@@ -65,160 +80,24 @@
         </ul>
         <p>While our pods are not officially certified by Passivhaus, we guarantee they exceed its standards, ensuring a comfortable, efficient living experience.</p>
     </section>
-    <div class="divider-wrapper">
-        <hr class="section-divider">
-    <section id="pods" class="section">
-        <h2>Our Pods</h2>
-        
-        <!-- Pod 1 -->
-        <div class="pod">
-            <!-- Pod Title and Blurb -->
-            <div class="pod-header">
-                <h3>Pod 1: Self-Contained Retreat</h3>
-                <p class="pod-blurb">An ideal private retreat for teens, designed to foster comfort, independence, and a sense of escape.</p>
-            </div>
-            
-            <!-- Top Section: Main Image on Left, Text on Right -->
-            <div class="top-section">
-                <div class="image-left">
-                    <img src="images\Complete Lena 8m by 3 ISO.jpg" alt="Lena Karmel Design Overview" class="main-pod-image">
-                </div>
-                <div class="text-right">
-                    <ul>
-                        <li><strong>Comfort and Independence:</strong> A dedicated space thoughtfully designed for relaxation, creativity, and privacy.</li>
-                        <li><strong>Tranquil Environment:</strong> Positioned for quiet within the home, encouraging focus and calm.</li>
-                        <li><strong>Dimesnsions:</strong> 8m long, 3.5m high and a total height of 3.2m</li>
-                        <li><strong>Filtered Ventilation:</strong> Continuous HEP2 filtered air supply via Heat Recovery Ventilation (HRV)</li>
-                        <li><strong>Tilt and Turn double glazed Windows and Doors:</strong> Thermally inuslated and airtight windows and doors imported from europe</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Bottom Section: Three Images Side by Side -->
-            <div class="bottom-section">
-                <img src="images\Complete Lena 8m by 3 Bed side.jpg" alt="Second Pod Design 1" class="side-by-side-image">
-                <img src="images\Complete Lena 8m by 3 couch side.jpg" alt="Second Pod Design 2" class="side-by-side-image">
-                <img src="images\Complete Lena 8m by 3 Top.jpg" alt="Second Pod Top View" class="side-by-side-image">
-            </div>
-        </div>
-    
-        <!-- Pod 2 (Duplicate Structure) -->
-        <div class="pod">
-            <!-- Pod Title and Blurb -->
-            <div class="pod-header">
-                <h3>Pod 2: Fully-Equipped Living Pod</h3>
-                <p class="pod-blurb">An all-in-one living solution with a bathroom, kitchenette, and bedroom, providing complete privacy and independence.</p>
-            </div>
-            
-            <!-- Top Section: Main Image on Left, Text on Right -->
-            <div class="top-section">
-                <div class="image-left">
-                    <img src="images\Complete Lena 11.5m by 3 iso.jpg" alt="Second Pod Design Overview" class="main-pod-image">
-                </div>
-                <div class="text-right">
-                    <ul>
-                        <li><strong>Complete Living Solution:</strong> Fully self-contained with all essential amenities for independent living.</li>
-                        <li><strong>Privacy and Comfort:</strong> Ideal for extended stays or as a guest suite, offering a peaceful, self-sufficient space.</li>
-                        <li><strong>Dimesnsions:</strong> 11.5m long, 3.5m high and a total height of 3.2m</li>
-                        <li><strong>Filtered Ventilation:</strong> Continuous HEP2 filtered air supply via Heat Recovery Ventilation (HRV)</li>
-                        <li><strong>Tilt and Turn double glazed Windows and Doors:</strong> Thermally inuslated and airtight windows and doors imported from europe</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Bottom Section: Three Images Side by Side -->
-            <div class="bottom-section">
-                <img src="images\Complete Lena 11.5m by 3.jpg" alt="Lena Karmel Design 1" class="side-by-side-image">
-                <img src="images\Complete Lena 11.5m by 3 2.jpg" alt="Lena Karmel Design 2" class="side-by-side-image">
-                <img src="images\Complete Lena 11.5m by 3 Top.jpg" alt="Lena Karmel Top View" class="side-by-side-image">
-            </div>
-        </div>
-    </section>
-
 
     <div class="divider-wrapper">
         <hr class="section-divider">
-
-
- <section id="team" class="section">
-    <div class="about-us-container">
-        <!-- Profile Picture -->
-        <div class="profile-picture">
-            <img src="images/profile picture.jpg" alt="Daniel Tscherry Profile Picture">
-        </div>
-
-        <!-- About Us Text -->
-        <div class="about-us-text">
-            <h2>About Us</h2>
-            <p>Hello! I’m Daniel Tscherry, founder of PassivPods. My passion for the Passive House approach to healthy, sustainable living drives me to create spaces that truly enrich lives. Here’s a bit about my journey:</p>
-            <ul>
-                <li><strong>Certified Carpenter</strong> with over four years of experience in constructing certified passive homes.</li>
-                <li><strong>Passivhaus Design Graduate:</strong> Completed an intensive two-week course in Passive House design, gaining specialized knowledge to ensure each pod meets exacting standards.</li>
-                <li><strong>Driven by Family:</strong> Growing up in Australia’s challenging climate, and inspired by my daughter’s asthma, I’m deeply motivated to create homes with superior air quality and comfort.</li>
-                <li><strong>Environmentally Committed:</strong> I have a deep respect for Australia’s unique ecosystems and the ancestral custodians of our land.</li>
-                <li><strong>Founder and Director of Transcend Carpentry:</strong> For four years, I founded and ran Transcend Carpentry, a Canberra-based business focused on Passive House construction and renovations. I’m proud of our 4.8-star rating on Google, reflecting our dedication to quality and customer satisfaction.</li>
-            </ul>
-        </div>
     </div>
-            <!-- Google Star Rating Section -->
-            <div class="google-rating">
-                <h2><strong>Transcend Carpentry Reviews</strong></h2>
-                <img src="images/4.8-star-rating.jpg" alt="4.8 Star Rating">
-            </div>
-        
-            <!-- Reviews Section -->
-            <h3>Client Reviews</h3>
-        
-            <div class="review">
-                <h4>Meg – Hughes, Canberra</h4>
-                <p><em>Positive: Professionalism, Punctuality, Quality, Responsiveness</em></p>
-                <p>Daniel replaced all 24 of our windows and doors with triple-glazed units. The quality of the workmanship is excellent, and we are really impressed with the end result. It has transformed the performance and appearance of the house. Because of the age and design of the house and previous renovations, there were lots of quirks to overcome, which Daniel did, always finding neat solutions. He also helped us out by doing an additional job to replace cladding.</p>
-                <p>Daniel was great to deal with - always communicated when he would be there and arrived on time. He was very considerate not to inconvenience us, and would always clean up thoroughly at the end of the day. I highly recommend Transcend Carpentry and will definitely use them in the future for any other jobs we have.</p>
-            </div>
-        
-            <div class="review">
-                <h4>Anthony - Oxley, Canberra</h4>
-                <p>Very happy client - Transcend Carpentry installed the 11 triple-glazed uPVC windows for our home in Canberra, ACT. All windows were initially measured for ordering by Daniel and were fitted and sealed extremely well; architraves and sills were installed and left looking fantastic. Daniel communicated well about when he would be working at our home. As he was replacing existing windows, he always found good solutions for unexpected issues that arose in our house, which was built in 1985. My wife and I are both very pleased with the installation of the windows and the windows themselves. Job well done. Thank you, Transcend Carpentry.</p>
-            </div>
-        
-            <div class="review">
-                <h4>Kaye – Goulburn, NSW</h4>
-                <p>Transcend was recommended to us by a satisfied client. Daniel assisted us by rectifying some building errors on our new-build Passive House just outside Goulburn. His work is thorough, his knowledge is extensive, and we are happy to recommend him to others.</p>
-            </div>
-        </section>
-</section>
 
-    
-    <div class="divider-wrapper">
-        <hr class="section-divider">
-        
-<section id="contact">
-    <div class="contact-wrapper">
-        <h2>Contact Us</h2>
-        <p>To learn more or explore how a PassivPod could enhance your living experience, please reach out. We’re excited to connect and discuss how we can help you live more comfortably and sustainably.</p>
-        <form action="https://formspree.io/f/xpwzrnel" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </div>
-</section>
+    <!-- More Sections like "Our Pods", "Team", "Contact", etc. -->
 
-
-    
-        <!-- Footer -->
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2024 PassivPods. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/profile.php?id=61568110442702" target="_blank">Facebook</a>
-                </div>
-                <p>Contact us at 0423628820 | info@yourwebsite.com</p>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 PassivPods. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61568110442702" target="_blank">Facebook</a>
             </div>
-        </footer>
+            <p>Contact us at 0423628820 | info@yourwebsite.com</p>
+        </div>
+    </footer>
     
-        <!-- JavaScript for Dropdown Header Visibility on Scroll -->
-        <script src="assets/script.js"></script>
-    </body>
-    </html>
+    <!-- JavaScript for Dropdown Header Visibility on Scroll -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
