@@ -10,7 +10,7 @@
     <meta property="og:image" content="https://example.com/path/to/your-image.jpg">
     <meta property="og:url" content="https://passivpods.com.au">
     <title>PassivPods Website</title>
-    
+   
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -195,14 +195,28 @@
     <div class="contact-wrapper">
         <h2>Contact Us</h2>
         <p>To learn more or explore how a PassivPod could enhance your living experience, please reach out. We’re excited to connect and discuss how we can help you live more comfortably and sustainably.</p>
-        <form action="https://formspree.io/f/xpwzrnel" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+        <form
+            action="https://formspree.io/f/xpwzrnel"
+            method="POST"
+        >
+            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+            <label>
+                Your Name:
+                <input type="text" name="name" placeholder="Your Name" required>
+            </label>
+            <label>
+                Your Email:
+                <input type="email" name="email" placeholder="Your Email" required>
+            </label>
+            <label>
+                Your Message:
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </label>
             <button type="submit">Send</button>
         </form>
     </div>
 </section>
+
 
     
         <!-- Footer -->
